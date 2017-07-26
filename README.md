@@ -1,4 +1,4 @@
-# XamarinHockeyAppDemo
+# HockeyApp SDK Demo with Xamarin.Forms
 Demonstrates the following HockeyApp SDK integration features using a Xamarin.Forms app:
 
 * Crash Reporting
