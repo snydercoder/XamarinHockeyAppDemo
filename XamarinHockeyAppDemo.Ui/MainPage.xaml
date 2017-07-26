@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinHockeyAppDemo.Ui.MainPage">
+	<ContentPage.Content>
+
+        <StackLayout Margin="10,50,10,0">
+
+            <Image 
+                Source="hockeyapp_logo.png" 
+                HorizontalOptions="Center"
+                WidthRequest="200"
+                Aspect="AspectFit"
+            />
+            
+            <Label
+                Margin="0,0,0,50"
+                Text="HockeyApp is awesome!!!"
+                FontSize="24"
+                HorizontalOptions="Center"
+            />
+
+            <Button 
+                Margin="0,10,0,10"
+                Text="Throw an Error!"
+                TextColor="White"
+                BackgroundColor="Red"
+                Clicked="OnThrowErrorButtonClicked"
+            />
+
+            <Button 
+                Margin="0,10,0,10"
+                Text="Track a Custom Event"
+                TextColor="White"
+                BackgroundColor="Blue"
+                Clicked="OnTrackEventButtonClicked"
+            />
+
+            <Button 
+                Margin="0,10,0,10"
+                Text="Send Feedback"
+                TextColor="White"
+                BackgroundColor="Green"
+                Clicked="OnSendFeedbackButtonClicked"
+            />            
+            
+        </StackLayout>
+        
+	</ContentPage.Content>
+</ContentPage>
